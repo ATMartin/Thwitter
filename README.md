@@ -10,11 +10,10 @@ You can follow along in one of two ways:
 
 To install:
 From your terminal, type the following commands:
-- git clone address
-- cd thwitter
-- bower install
-- open index.html
-
+- `git clone https://github.com/ATMartin/Thwitter.git`
+- `cd thwitter`
+- `bower install`
+- `open index.html`
 Thanks:
 - [@jacobthemyth](http://github.com/jacobthemyth)
 - [@jashkenas](http://github.com/jashkenas)
