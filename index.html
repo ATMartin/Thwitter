@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thwitter ith Awethome!</title>
+</head>
+<body>
+  <h1 style="margin-bottom: 2px">Thwitter</h1>
+  <h4 style="margin-top: 2px">Microblogging for Lispers.</h4>
+  <hr>
+  <div class="thweet-app"></div>
+
+  <script type="text/template" data-template-name="submit-form">
+    <h3 style="margin-bottom: 2px">Thend a Thweet!</h3>
+    <input type="text" class="sender" placeholder="Who are you?">
+    <br>
+    <input type="text" class="msg" placeholder="Thweet at thomeone!">
+    <br>
+    <input type="submit" value="Thumbmit!">
+    <hr>
+  </script>
+
+  <script type="text/template" data-template-name="thweet">
+    <li>
+       <span style="font-weight: bold"><%= message %></span> -- <span style="font-size: 12px; color: #aaa"><%= sender %></span> (<a href="#thweet/<%= id %>">link</a>)
+    </li>
+  </script>
+
+
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>  
+  <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
+  <script type="text/javascript" src="bower_components/backbone/backbone.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
